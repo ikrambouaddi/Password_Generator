@@ -27,3 +27,9 @@ body{
     border-bottom: 1px solid rgb(170, 168, 168);
 
 }
+.wrapper{
+    margin: 1.25rem 1.75rem;
+}
+.wrapper .input-box{
+    position: relative;
+}
