@@ -60,3 +60,11 @@ body{
     margin-top: 0.75rem;
     position: relative;
 }
+.pass-indicator::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    border-radius: inherit;
+    transition: width 0.3s ease;
+}
