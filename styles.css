@@ -68,3 +68,7 @@ body{
     border-radius: inherit;
     transition: width 0.3s ease;
 }
+.pass-indicator#weak::before{
+    width: 20%;
+    background: red;
+}
