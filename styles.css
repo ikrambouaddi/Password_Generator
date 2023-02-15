@@ -76,3 +76,7 @@ body{
     width: 50%;
     background: rgb(255, 238, 3);
 }
+.pass-indicator#strong::before{
+    width: 100%;
+    background: rgb(9, 245, 9);
+}
