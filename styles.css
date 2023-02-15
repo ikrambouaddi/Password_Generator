@@ -72,3 +72,7 @@ body{
     width: 20%;
     background: red;
 }
+.pass-indicator#medium::before{
+    width: 50%;
+    background: rgb(255, 238, 3);
+}
