@@ -80,3 +80,6 @@ body{
     width: 100%;
     background: rgb(9, 245, 9);
 }
+.wrapper .pass-length{
+    margin: 1.56rem 0 1.25rem;
+}
