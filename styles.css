@@ -102,3 +102,7 @@ body{
     align-items: center;
     width: calc(100% / 2);
 }
+
+.options .option:first-child{
+    pointer-events: none;
+}
