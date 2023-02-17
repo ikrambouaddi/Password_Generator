@@ -114,3 +114,8 @@ body{
     width: 16px;
     cursor: pointer;
 }
+
+.options .option label{
+    cursor: pointer;
+    padding-left: 0.63rem;
+}
