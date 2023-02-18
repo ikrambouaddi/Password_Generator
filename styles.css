@@ -119,3 +119,9 @@ body{
     cursor: pointer;
     padding-left: 0.63rem;
 }
+.generatare-btn{
+    padding: 0.94rem 0;
+    width: 100%;
+    background: rgb(8, 118, 245);
+    margin: 0.94rem 0 1.3rem ;
+    border:none;
