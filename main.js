@@ -23,3 +23,4 @@ const generatrPassord =()=>{
     randomLength ="",
     falseValue=false,
     passLenght = spanLength.value;
+}
