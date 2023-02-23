@@ -21,3 +21,5 @@ const charcters = {
 const generatrPassord =()=>{
     let staticpassord ='',
     randomLength ="",
+    falseValue=false,
+    passLenght = spanLength.value;
