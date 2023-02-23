@@ -17,3 +17,7 @@ const charcters = {
     Sympols:"!@#$%^&*()_-"
     
 }
+
+const generatrPassord =()=>{
+    let staticpassord ='',
+    randomLength ="",
