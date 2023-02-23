@@ -8,3 +8,4 @@ copyIcon=document.querySelector('.input-box span'),
 
 
 generatorBtn = document.querySelector('.generatare-btn');
+console.log(options)
