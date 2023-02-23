@@ -9,3 +9,11 @@ copyIcon=document.querySelector('.input-box span'),
 
 generatorBtn = document.querySelector('.generatare-btn');
 console.log(options)
+
+const charcters = {
+    lowercase :"abcdefghijklmnopqrstuvwxyz",
+    uppercase:"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    numbers:"1234567890",
+    Sympols:"!@#$%^&*()_-"
+    
+}
