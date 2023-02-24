@@ -28,5 +28,8 @@ const generatrPassord =()=>{
         console.log('11',option.checked)
         if(option.checked){
             console.log("testtttttttttttttttttttt",option.id)  
-        
+            if(option.id !== 'exc-duplicate' && option.id !== 'spaces'){
+                
+                staticpassord += charcters[option.id]
+            }
 }
