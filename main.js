@@ -24,12 +24,11 @@ const generatrPassord =()=>{
     falseValue=false,
     passLenght = spanLength.value;
 
+
+    
     options.forEach(option => {//looping touch each option's check
-        console.log('11',option.checked)
         if(option.checked){
-            console.log("testtttttttttttttttttttt",option.id)  
             if(option.id !== 'exc-duplicate' && option.id !== 'spaces'){
-                console.log("ikram3ndhasah")
                 staticpassord += charcters[option.id]
             }else if(option.id === 'spaces'){
                 staticpassord += ` ${staticpassord}  ` 
@@ -39,3 +38,5 @@ const generatrPassord =()=>{
             
         }
     });
+
+}
