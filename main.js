@@ -29,7 +29,13 @@ const generatrPassord =()=>{
         if(option.checked){
             console.log("testtttttttttttttttttttt",option.id)  
             if(option.id !== 'exc-duplicate' && option.id !== 'spaces'){
-                
+                console.log("ikram3ndhasah")
                 staticpassord += charcters[option.id]
+            }else if(option.id === 'spaces'){
+                staticpassord += ` ${staticpassord}  ` 
+            }else{
+                falseValue = true;
             }
-}
+            
+        }
+    });
