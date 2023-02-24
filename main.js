@@ -23,4 +23,10 @@ const generatrPassord =()=>{
     randomLength ="",
     falseValue=false,
     passLenght = spanLength.value;
+
+    options.forEach(option => {//looping touch each option's check
+        console.log('11',option.checked)
+        if(option.checked){
+            console.log("testtttttttttttttttttttt",option.id)  
+        
 }
