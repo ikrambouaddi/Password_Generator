@@ -47,4 +47,6 @@ const passIndicatorFct =() =>{
 const updateSlider = () =>{
     // pass 
     document.querySelector('.pass-length span').innerText=spanLength.value;
+    generatrPassord();
+    passIndicatorFct();
 }
