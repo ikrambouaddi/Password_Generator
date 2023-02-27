@@ -50,3 +50,4 @@ const updateSlider = () =>{
     generatrPassord();
     passIndicatorFct();
 }
+updateSlider()
