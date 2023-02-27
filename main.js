@@ -44,4 +44,7 @@ const generatrPassord =()=>{
 const passIndicatorFct =() =>{
     passEndicator.id =spanLength.value <= 8 ? "weak" : spanLength.value <= 16 ?"medium":"strong";
 }
-
+const updateSlider = () =>{
+    // pass 
+    document.querySelector('.pass-length span').innerText=spanLength.value;
+}
