@@ -51,3 +51,5 @@ const updateSlider = () =>{
     passIndicatorFct();
 }
 updateSlider()
+
+const copyPass =()=>{
