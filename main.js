@@ -53,3 +53,5 @@ const updateSlider = () =>{
 updateSlider()
 
 const copyPass =()=>{
+    
+}
