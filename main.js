@@ -40,3 +40,8 @@ const generatrPassord =()=>{
     });
 
 }
+
+const passIndicatorFct =() =>{
+    passEndicator.id =spanLength.value <= 8 ? "weak" : spanLength.value <= 16 ?"medium":"strong";
+}
+
