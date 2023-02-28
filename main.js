@@ -59,3 +59,6 @@ const copyPass =()=>{
         copyIcon.innerText= 'copy_all'
     }, 1500);
 }
+
+copyIcon.addEventListener('click',copyPass)
+spanLength.addEventListener('input', updateSlider)
