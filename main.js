@@ -55,4 +55,7 @@ updateSlider()
 const copyPass =()=>{
     navigator.clipboard.writeText(passourdInput.value)
     copyIcon.innerText= "check"
+    setTimeout( ()=>{
+        copyIcon.innerText= 'copy_all'
+    }, 1500);
 }
