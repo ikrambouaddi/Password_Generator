@@ -53,5 +53,6 @@ const updateSlider = () =>{
 updateSlider()
 
 const copyPass =()=>{
-    
+    navigator.clipboard.writeText(passourdInput.value)
+    copyIcon.innerText= "check"
 }
