@@ -63,3 +63,8 @@ const copyPass =()=>{
 copyIcon.addEventListener('click',copyPass)
 spanLength.addEventListener('input', updateSlider)
 generatorBtn.addEventListener('click',generatrPassord)
+
+
+
+
+// i finish this project 
